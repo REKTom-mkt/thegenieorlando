@@ -1,0 +1,88 @@
+.btn {
+    --bs-btn-padding-x: 20px;
+    --bs-btn-padding-y: 13px;
+    font-weight: 600;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 0;
+    font-size: 12px;
+}
+
+.btn-lg {
+    font-size: 14px;
+    --bs-btn-padding-y: 12px;
+
+    @media (min-width:768px) {
+        --bs-btn-padding-x: 24px;
+        --bs-btn-padding-y: 15px;
+    }
+}
+
+.btn-blue {
+    background-color: $blue;
+    color: #fff;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($blue, 7%);
+        color: #fff;
+    }
+}
+
+.btn-blue2 {
+    background-color: $blue2;
+    color: #fff;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($blue2, 7%);
+        color: #fff;
+    }
+}
+
+.btn-lgrey {
+    background-color: $lgrey;
+    color: $blue;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($lgrey, 7%);
+        color: $blue;
+    }
+}
+
+.btn-lgrey2 {
+    background-color: $lgrey2;
+    color: $blue;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($lgrey2, 7%);
+        color: $blue;
+    }
+}
+
+.btn-callus {
+    line-height: 1.2;
+
+    small {
+        font-weight: 300;
+        font-size: 10px;
+    }
+}
+
+.btn-dblue2 {
+    background-color: $dblue2;
+    color: #fff;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($dblue2, 7%);
+        color: #fff;
+    }
+}

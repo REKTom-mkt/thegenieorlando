@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <!-- <link rel="preconnect" href="https://unpkg.com"> -->
+    <link rel="preconnect" href="https://www.google.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orlando Car Service | MCO to Disney | The Genie</title>
+
+    <!-- <style>
+        /* === MOBILE CRITICAL CSS: BUTTON FIX === */
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        /* Ensure the header expands to fit its children (the button) */
+        header {
+            position: relative;
+            z-index: 100;
+            width: 100%;
+            background-color: #fff;
+            /* Match your header background */
+        }
+
+        /* Add enough padding so the 'Book Now' button isn't cut off */
+        .navbar {
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+            min-height: 75px;
+        }
+
+        /* Target the specific button container from your HTML */
+        .header-btns {
+            display: block;
+            margin-right: 10px;
+        }
+
+        /* Ensure the banner image preserves its space without hiding the button above it */
+        .banner {
+            position: relative;
+            width: 100%;
+            clear: both;
+        }
+
+        .banner-img img {
+            width: 100%;
+            height: auto;
+            display: block;
+            aspect-ratio: 700 / 297;
+        }
+
+        .banner-caption {
+            padding: 1.5rem 1rem;
+            position: relative;
+        }
+
+        h1.h2 {
+            font-size: 1.5rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+    </style> -->
+
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="The Genie Transportation Services" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <meta name="description" content="Private car service from Orlando Airport to Disney World, Universal & Port Canaveral. Free car seats, flight tracking, 24/7 booking." />
+
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </noscript>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="css/style.css?v=7">
+
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;700&display=swap">
+    </noscript>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">-->
+
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    </noscript>
+    <!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" /> -->
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
+    </noscript>
+
+    <link rel="preload" fetchpriority="high" as="image" href="images/banner/mobile/the-genie-transportation-services-2.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image" href="images/banner/the-genie-transportation-services.webp" type="image/webp" media="(min-width: 576px)">
+    <link rel="canonical" href="https://www.thegenieorlando.com/" />
+</head>
+
+<body id="top">
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-xl cntr">
+                <a class="navbar-brand" href="/">
+                    <img src="images/the-genie-transportation-services.png" alt="The Genie Transportation Services" width="120" height="65">
+                </a>
+
+                <div class="navbar-wrap">
+                    <div class="header-btns">
+                        <a href="booking.html" class="btn btn-blue">Book Now</a>
+                    </div>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <b>MENU</b> <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/" title="Home">Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" title="Services" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="orlando-airport-transportation.html" title="Orlando Airport Transportation">Orlando Airport Transportation</a></li>
+                                    <li><a class="dropdown-item" href="walt-disney-world-transportation.html" title="Walt Disney World Transportation">Walt Disney World Transportation</a></li>
+                                    <li><a class="dropdown-item" href="port-canaveral-transportation.html" title="Port Canaveral Transportation">Port Canaveral Transportation</a></li>
+                                    <li><a class="dropdown-item" href="universal-studios-transportation.html" title="Universal Studios Transportation">Universal Studios Transportation</a></li>
+                                    <li><a class="dropdown-item" href="disney-stroller-rental.html" title="Disney Stroller Rentals">Disney Stroller Rentals</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="about.html" title="About">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="rates.html" title="Rates">Rates</a></li>
+                            <li class="nav-item"><a class="nav-link" href="faq.html" title="FAQs">FAQs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog" title="Blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html" title="Contact Us">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-img">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/banner/the-genie-transportation-services.webp">
+                <source media="(min-width: 460px)" srcset="images/banner/mobile/the-genie-transportation-services.webp">
+                <img src="images/banner/mobile/the-genie-transportation-services-2.webp" alt="The Genie Transportation Services" loading="eager" fetchpriority="high" decoding="async">
+            </picture>
+        </div>
+        <div class="banner-caption" data-aos="fade-right" data-aos-delay="400">
+            <h1 class="h2 font2 ls-1 text-uppercase mb-3 fw-bold">Orlando Airport Car Service | Private Transportation to Disney World</h1>
+            <div class="lh-lg pb-4">
+                <p>Our trusted Orlando car service offers safe, private transportation from Orlando International Airport (MCO) straight to Walt Disney World, Universal Orlando Resort, and Port Canaveral. From spacious vehicles to friendly, professional drivers, we make every ride stress-free, comfortable, and a little more magical—so your family can focus on the <span class="d-inline-block">fun ahead.</span></p>
+            </div>
+            <div class="btn-wrap">
+                <a href="booking.html" class="btn btn-dblue2 btn-lg px-5 px-lg-6">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-4 py-sm-5 py-md-6">
+        <div class="container-fluid overflow-hidden">
+            <div class="row row-cols-1 row-cols-lg-2 gy-4">
+                <div class="col">
+                    <div class="row align-items-end gy-4">
+                        <div class="col-8 col-md-4 ps-0 pe-md-4 d-none d-md-block" data-aos="fade-right">
+                            <img src="images/misc/chauffeur-opening-car-door.webp" alt="Chauffeur opening car door">
+                        </div>
+                        <div class="col-12 col-md-8 pt-4 pt-md-0" data-aos="fade-down" data-aos-delay="200">
+                            <h2 class="font2 fw-normal mb-4 text-center text-md-start"><span class="blue">Unlock a Smoother</span> <br><span class="grey d-inline-block ps-md-5">Orlando Vacation</span></h2>
+
+                            <div class="text-justify lh-lg">
+                                <p>Family travel should be exciting, not stressful. At The Genie Transportation Services, we know what it’s like to arrive after a long day of travel with kids in tow — juggling luggage, <strong><a href="/disney-stroller-rental.html">strollers</a></strong>, and tired little ones. That’s why our private car service is thoughtfully designed for families, offering comfort, safety, and peace of mind from the very first moment of your journey.</p>
+                                <p>We provide complimentary Graco car seats for infants and children, ensuring your family rides safely without the hassle of bringing your own. Whether you need <a href="walt-disney-world-transportation.html"><strong>reliable transportation from MCO to Disney</strong></a> or a <a href="port-canaveral-transportation.html"><strong>comfortable ride to your cruise port</strong></a> or resort, our friendly drivers and spacious vehicles make every trip effortless and enjoyable. Sit back, relax, and let the magic of your Orlando vacation begin the moment you step into the car.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col px-lg-5">
+                    <div class="row justify-content-center justify-content-lg-start">
+                        <div class="col-md-8 col-lg-10" data-aos="fade-left" data-aos-delay="400">
+                            <picture>
+                                <source media="(min-width: 576px)" srcset="images/misc/family-private-transportation-orlando-fl.webp">
+                                <img src="images/misc/mobile/family-private-transportation-orlando-fl.webp" alt="Parents leading kids into the private car service" class="w-100">
+                            </picture>
+                            <!--section-1-2.webp-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-bg-1 py-4 py-sm-5 py-md-6 bg-blue text-white">
+        <div class="container-xxl overflow-hidden">
+            <div class="row row-cols-1 row-cols-md-2 mb-4 mb-md-5 align-items-center gy-4 gx-md-5" data-aos="fade-down">
+                <div class="col text-center text-md-end">
+                    <h2 class="font2 mb-0"><span class="d-inline-block pe-lg-5">Dedicated to Your Family's</span><br>
+                        <span class="blue2">Comfort & Safety</span>
+                    </h2>
+                </div>
+
+                <div class="col border-md-start lh-lg">
+                    <p class="mb-0">We believe exceptional private transportation is built on trust, safety, and personalized care. Here's what sets The Genie Transportation Services apart as Orlando's premier car service for families:</p>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4 g-md-5 lh-lg">
+                <div class="col">
+                    <div class="d-flex gap-3" data-aos="fade-up">
+                        <span class="round-icon"><img src="images/misc/icons/icon-car.png" alt=""></span>
+                        <div>
+                            <h6 class="text-uppercase">Unwavering Reliability</h6>
+                            <p>We guarantee on-time pickups, track your flight in real-time, and have your professional driver ready when you arrive. Your peace of mind matters to us.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex gap-3" data-aos="fade-up" data-aos-delay="200">
+                        <span class="round-icon"><img src="images/misc/icons/icon-safety.png" alt=""></span>
+                        <div>
+                            <h6 class="text-uppercase">Safety First, Always</h6>
+                            <p>Travel safely with kids! We provide free, professionally installed car seats (infant, toddler & booster) in every vehicle. Just select the car seat type you need when making a reservation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex gap-3" data-aos="fade-up" data-aos-delay="400">
+                        <span class="round-icon"><img src="images/misc/icons/icon-luxury.png" alt=""></span>
+                        <div>
+                            <h6 class="text-uppercase">Luxurious & Spacious Vehicles</h6>
+                            <p>Our modern SUVs offer plenty of space for your family to relax, plus room for luggage, strollers, and souvenirs. Comfort guaranteed for everyone on board.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex gap-3" data-aos="fade-up" data-aos-delay="600">
+                        <span class="round-icon"><img src="images/misc/icons/icon-chauffeurs.png" alt=""></span>
+                        <div>
+                            <h6 class="text-uppercase">Expert Chauffeurs</h6>
+                            <p>Our experienced drivers provide professional, safe, and friendly service, ensuring your journey is smooth and comfortable every time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex gap-3" data-aos="fade-up" data-aos-delay="800">
+                        <span class="round-icon"><img src="images/misc/icons/icon-pricing.png" alt=""></span>
+                        <div>
+                            <h6 class="text-uppercase">Transparent & Fair Pricing</h6>
+                            <p>Enjoy competitive, all-inclusive pricing with no hidden fees. What you see is what you pay, so you can budget your vacation with confidence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center px-md-5">
+                    <a href="booking.html" class="btn btn-blue2 btn-lg px-lg-7 w-100" data-aos="fade-up" data-aos-delay="1000">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-4 py-sm-5">
+        <div class="container-xxl overflow-hidden">
+            <div class="row justify-content-center">
+                <div class="col-lg-10" data-aos="fade-down">
+                    <div class="row row-cols-1 row-cols-md-2 align-items-center text-center text-md-start gy-3 mb-4 gx-md-5">
+                        <div class="col">
+                            <h2 class="font2 fw-normal blue">Seamless Private Transfers <span class="grey">to Disney, Universal, Port Canaveral & More</span></h2>
+                        </div>
+                        <div class="col border-md-start border-darken lh-lg">
+                            <p class="mb-0">We specialize in <a href="orlando-airport-transportation.html"><strong>direct, private transportation</strong></a> to Orlando's most popular attractions and transportation hubs. Forget <a href="/mco-to-disney-world-transportation-guide-2026.html"><strong>crowded shuttles or multiple stops</strong></a>; enjoy a personalized, door-to-door experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-slider-wrap" data-aos="fade-up" data-aos-delay="200">
+                <div class="row row-cols-1 row-cols-md-3 gy-4 gx-0 services-slider">
+                    <div class="col">
+                        <a class="box-caption" href="orlando-airport-transportation.html">
+                            <picture>
+                                <source media="(min-width: 576px)" srcset="images/misc/orlando-airport-transfers.jpg">
+                                <img src="images/misc/mobile/orlando-airport-transfers.webp" alt="Orlando Airport (MCO) Transfers" loading="lazy">
+                            </picture>
+                            <div class="caption">
+                                <h6>Orlando Airport (MCO) Transfers</h6>
+                                <p>Skip airport stress! Your driver meets you at baggage claim with a personalized sign, helps with luggage, and takes you straight.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a class="box-caption box-caption--grey" href="walt-disney-world-transportation.html">
+                            <picture>
+                                <source media="(min-width: 576px)" srcset="images/misc/safe-kids-travel-car-seat-service.webp">
+                                <img src="images/misc/mobile/safe-kids-travel-car-seat-service.webp" alt="Walt Disney World Transportation" loading="lazy">
+                            </picture>
+                            <div class="caption">
+                                <h6>Walt Disney World Transportation</h6>
+                                <p>Get to the magic faster! Our private cars offer direct, comfortable rides to all Disney World Resort hotels. Skip the parking and bus lines to maximize your park time.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a class="box-caption" href="universal-studios-transportation.html">
+                            <picture>
+                                <source media="(min-width: 576px)" srcset="images/misc/theme-park-fun-ice-cream.webp">
+                                <img src="images/misc/mobile/theme-park-fun-ice-cream.webp" alt="Universal Orlando Resort Transportation" loading="lazy">
+                            </picture>
+                            <div class="caption">
+                                <h6>Universal Orlando Resort Transportation</h6>
+                                <p>Get to the magic faster! Our private cars offer direct, comfortable rides to all Disney World Resort hotels. Skip the parking and bus lines to maximize your park time.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a class="box-caption box-caption--grey" href="port-canaveral-transportation.html">
+                            <picture>
+                                <source media="(min-width: 576px)" srcset="images/misc/section-3-4.webp">
+                                <img src="images/misc/mobile/section-3-4.webp" alt="Port Canaveral Cruise Transfers" loading="lazy">
+                            </picture>
+                            <div class="caption">
+                                <h6>Port Canaveral Cruise Transfers</h6>
+                                <p>Begin your cruise vacation relaxed. We offer dependable transfers from MCO to Port Canaveral, ensuring you reach your ship (Disney Cruise Line, Royal Caribbean, Carnival, Norwegian, MSC, Princess) with ample time for check-in. We also provide convenient return transfers.</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <div class="box-caption">
+                            <picture>
+                                <source media="(min-width: 576px)" srcset="images/misc/section-3-5.webp">
+                                <img src="images/misc/mobile/section-3-5.webp" alt="Sanford Airport (SFB) Transfers" loading="lazy">
+                            </picture>
+                            <div class="caption">
+                                <h6>Sanford Airport (SFB) Transfers</h6>
+                                <p>Enjoy the same reliable and comfortable private transportation from Orlando Sanford International Airport (SFB) to all major Orlando attractions, resorts, and cruise ports.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="box-caption box-caption--grey">
+                            <picture>
+                                <source media="(min-width: 576px)" srcset="images/misc/section-3-6.webp">
+                                <img src="images/misc/mobile/section-3-6.webp" alt="Custom Charters & Beyond" loading="lazy">
+                            </picture>
+                            <div class="caption">
+                                <h6>Custom Charters & Beyond</h6>
+                                <p>Need transportation for a special dinner, a golf outing, a shopping trip, or exploring other Central Florida attractions? We offer flexible hourly charters and point-to-point service tailored to your itinerary.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-4 py-sm-5 py-md-6 bg-lgrey overflow-hidden">
+        <div class="container-fluid">
+            <div class="row align-items-end gy-4">
+                <div class="col-md-5 ps-md-4 " data-aos="fade-right">
+                    <picture style="max-width: 500px;" class="d-md-block ms-md-auto">
+                        <source media="(min-width: 576px)" srcset="images/misc/premium-stroller-rentals.webp">
+                        <img src="images/misc/mobile/premium-stroller-rentals.webp" alt="Boy on a premium stroller loaded in private transportation vehicle">
+                    </picture>
+                </div>
+                <div class="col-md-7 col-lg-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="mb-4 text-center text-md-start">
+                        <h6 class="fw-normal text-uppercase ls-1">Travel Lighter</h6>
+                        <h2 class="font2 fw-normal blue"><a href="/disney-stroller-rental.html">Premium Stroller Rentals</a><br>
+                            <span class="grey">Delivered to You</span>
+                        </h2>
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="true" aria-controls="collapse_1">
+                                    Ultimate Convenience
+                                </button>
+                            </h2>
+                            <div id="collapse_1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>When you book your round-trip transfer with us, simply add a premium Baby Jogger stroller to your reservation. It will be professionally sanitized, spotless, and ready for you in your vehicle upon pickup at MCO.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+                                    Theme Park Approved Quality
+                                </button>
+                            </h2>
+                            <div id="collapse_2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>We provide single and double Baby Jogger City Mini GT2 and GT3 strollers, known for their lightweight, compact design, and easy maneuverability. These models adhere to all size regulations for Disney (Magic Kingdom, Epcot, Hollywood Studios, Animal Kingdom) and Universal Studios, ensuring smooth navigation through the parks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_3" aria-expanded="false" aria-controls="collapse_3">
+                                    Comfort & Essentials for Your Child
+                                </button>
+                            </h2>
+                            <div id="collapse_3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Our strollers feature cozy reclining seats, spacious storage baskets (up to 10 lbs), and UV50+ canopies with peekaboo windows. Each rental includes a parent console, a rain cover, and a complimentary case of water to keep you refreshed.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_4" aria-expanded="false" aria-controls="collapse_4">
+                                    Effortless Pickup & Return
+                                </button>
+                            </h2>
+                            <div id="collapse_4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Your driver will have the stroller ready at your initial pickup and will collect it upon your return journey, eliminating the need for separate delivery arrangements or scheduling.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block col pe-md-0">
+                    <picture>
+                        <source media="(min-width: 576px)" srcset="images/misc/citi-mini-GT2-double-stroller.webp">
+                        <img src="images/misc/mobile/citi-mini-GT2-double-stroller.webp" alt="Citi Mini Gt2 Double Stroller" data-aos="fade-left" data-aos-delay="400">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-reviews py-4 py-sm-5 py-md-6">
+        <div class="container-xxl overflow-hidden">
+            <div class="row justify-content-center mx-0">
+                <div class="col-lg-10" data-aos="fade-down">
+                    <div class="row row-cols-1 row-cols-md-2 mb-4 align-items-center text-center text-md-start gy-3 gx-md-5">
+                        <div class="col">
+                            <h2 class="font2 fw-normal">Our Guests Say It Best: <br><span class="dblue2 d-inline-block ps-md-5">Trusted by Families & Travelers</span></h2>
+                        </div>
+
+                        <div class="col border-md-start lh-lg">
+                            <p class="mb-0">We are incredibly proud of the feedback we receive from our satisfied customers. Their experiences highlight our commitment to excellence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 gy-4">
+                <div class="col">
+                    <div class="review-item" data-aos="fade-up" data-aos-delay="200">
+                        <p>“Absolutely amazing service! The car seats were a huge relief, and our driver was so friendly and punctual. They made our Disney transfer completely stress-free. Highly recommend for families heading to Orlando!”</p>
+
+                        <h6>Sarah L., Recent Customer</h6>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="review-item" data-aos="fade-up" data-aos-delay="400">
+                        <p>“Booking with The Genie made our MCO airport transfer to Port Canaveral completely seamless. The vehicle was spotless, communication was excellent, and the ride was so smooth. We'll definitely use them again for our next cruise.”</p>
+
+                        <h6>Mark T., Cruise Passenger</h6>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="review-item" data-aos="fade-up" data-aos-delay="600">
+                        <p>“Professional, reliable, and excellent with kids. They accommodated all our luggage and had the perfect car seats for our little ones. The Genie truly is the best private car service in Orlando!”</p>
+
+                        <h6>Jessica R., Repeat Client</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue py-4 py-sm-5 py-md-6 text-white overflow-hidden">
+        <div class="container-xxl overflow-hidden">
+            <div class="row row-cols-1 row-cols-md-2 justify-content-center gy-4">
+                <div class="col-md-5 text-center text-md-end pe-md-5" data-aos="fade-right">
+                    <h2 class="font2 fw-normal heading-1 mb-4 lh-base">Book Your Private Transportation <span class="d-inline-block">with The Genie</span> Today!</h2>
+                    <a href="booking.html" class="btn btn-dblue2">Book a reservation</a>
+                </div>
+
+                <div class="col lh-lg" data-aos="fade-left" data-aos-delay="200">
+                    <picture>
+                        <source media="(min-width: 576px)" srcset="images/misc/orlando-private-transportation-service.webp">
+                        <img src="images/misc/mobile/orlando-private-transportation-service.webp" alt="Private transportation services in Orlando, Florida, by The Genie">
+                    </picture>
+                    <div class="p-4 pb-0">
+                        <p>Don't let transportation worries detract from your Orlando adventure. <a href="/mco-to-disney-world-transportation-guide-2026.html"><strong>Choose The Genie Transportation Services</strong></a> for a superior, seamless, and safe private car service experience. Experience the comfort, convenience, and peace of mind your family deserves.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-car-list section-car-list--s2 pt-lg-5">
+        <div class="position-relative">
+            <div class="container-fluid px-0">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4 gx-0">
+                    <div class="col">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <img src="images/misc/genie-express.webp" alt="GENIE Express: Mid-Size SUV">
+                            </div>
+                            <div class="desc">
+                                <h4 class="font2">GENIE Express</h4>
+                                <ul>
+                                    <li>Enjoy your journey in a Mid-Size SUV</li>
+                                    <li>Suitable for up to 2 passengers</li>
+                                    <li>Complimentary bottled water</li>
+                                    <li>Free car seats and boosters for kids in every vehicle</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <img src="images/misc/genie-comfort.webp" alt="GENIE Comfort: Full-Size SUV">
+                            </div>
+                            <div class="desc">
+                                <h4 class="font2">GENIE Comfort</h4>
+                                <ul>
+                                    <li>Find comfort for the whole family in a Full-Size SUV</li>
+                                    <li>Suitable for up to 6 passengers</li>
+                                    <li>Complimentary bottled water</li>
+                                    <li>Free car seats and boosters for kids in every vehicle</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <img src="images/misc/genie-vip.webp" alt="GENIE VIP: Luxury Cadillac Escalade">
+                            </div>
+                            <div class="desc">
+                                <h4 class="font2">GENIE VIP</h4>
+                                <ul>
+                                    <li>Travel in style in a Luxury Cadillac Escalade</li>
+                                    <li>Suitable for up to 5 passengers</li>
+                                    <li>Complimentary Fiji bottled water</li>
+                                    <li>Free car seats and boosters for kids in every vehicle</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <img src="images/misc/genie-xl.webp" alt="GENIE XL: Spacious 12 Passenger Van">
+                            </div>
+                            <div class="desc">
+                                <h4 class="font2">GENIE XL</h4>
+                                <ul>
+                                    <li>Travel in style in a spacious 12 passenger van</li>
+                                    <li>Suitable for up to 12 passengers</li>
+                                    <li>Complimentary bottled water</li>
+                                    <li>Free car seats and boosters for kids in every vehicle</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-lgrey2 py-4 py-sm-5 py-md-6">
+        <div class="container-xxl">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 lh-lg text-center">
+                    <h3 class="font2 text-center mb-3">Proud Member of</h3>
+                </div>
+            </div>
+            <br>
+
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center align-items-center gy-4 text-center">
+                <div class="col">
+                    <a href="https://www.floridalimousine.com/" target="_blank"><img src="images/misc/FLA.webp" alt="Florida Limousine Association (FLA)" class="object-fit-contain" height="180" width="180"></a>
+                </div>
+                <div class="col">
+                    <a href="https://www.lakenonacc.org/" target="_blank">
+                        <img src="images/misc/lake-nona.webp" alt="Member of Lake Nona Regional Chamber of Commerce" height="180" class="object-fit-contain"></a>
+                </div>
+                <div class="col">
+                    <a href="https://www.limo.org/" target="_blank">
+                        <img src="images/misc/NLA-member.webp" alt="Proud Member of National Limousine Association" style="mix-blend-mode: multiply;" width="180" class="object-fit-contain">
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-4 mt-lg-5 text-center mb-4">
+                <h3 class="font2">Licensed and Permitted</h3>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center align-items-center gy-4 text-center">
+                <div class="col">
+                    <a href="https://www.orlando.gov/Home" target="_blank">
+                        <img src="images/misc/cityoforlando.webp" alt="City of Orlando" class="object-fit-contain" width="220">
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://flymco.com/" target="_blank">
+                        <img src="images/misc/mco.webp" alt="Orlando International Airport (MCO)" height="60" class="object-fit-contain"></a>
+                </div>
+                <div class="col">
+                    <a href="https://www.portcanaveral.com/" target="_blank">
+                        <img src="images/misc/port-canaveral.svg" alt="Port Canaveral" width="260" class="object-fit-contain">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-fta py-4 py-sm-5 py-md-6">
+        <div class="container-xxl">
+            <div class="row align-items-center">
+                <div class="col-md-4 lh-lg text-center text-md-start">
+                    <a href="https://www.familytravel.org/" target="_blank"><img src="images/misc/family-travel-association.png" alt="Member of Family Travel Association" class="object-fit-contain"></a>
+
+                    <p>When you travel with us, you’re choosing a company recognized for meeting the highest standards in family-friendly travel.</p>
+                    <p>As a proud member of the Family Travel Association (FTA), we’re part of a trusted network of travel providers dedicated to making every family journey safer, smoother, and more enjoyable.</p>
+                </div>
+                <div class="col-md-8 col2">
+                    <div class="box lh-lg">
+                        <h5>Why Families Choose Us</h5>
+                        <hr>
+                        <h6 class="mb-4">The <span class="orange">only</span> FTA-affiliated luxury private transportation company in Central Florida</h6>
+                        <p>At The Genie Transportation Services, we’re proud members of the Family Travel Association, the leading organization dedicated to helping families travel safely and joyfully.</p>
+
+                        <p>That means every ride with us is backed by trusted standards for safety, comfort, and family-friendly care. Our vehicles are equipped with the features families need—child safety seats, spacious interiors, and flexible scheduling—while our drivers are trained to make your journey stress-free from start to finish. Whether it’s an airport transfer, day trip, or multi-stop adventure, we go the extra mile to make travel easy for every age. When you choose us, you’re not just booking transportation—you’re choosing a partner in family travel excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-md-2 gy-4">
+                <div class="col order-md-2 pt-md-5">
+                    <div class="d-block d-md-none text-center text-md-start">
+                        <h3 class="font2 mb-3">Questions?</h3>
+
+                        <div class="mb-4 mb-md-45 lh-lg">
+                            <p>Have questions about our top-tier Disney World transportation? Curious about our Port Canaveral transportation or Orlando private transportation? Let's chat!</p>
+
+                            <p>We're here to answer all your questions and ensure you have all the information you need. Reach out to us via call, text, or email – we're eager to help!</p>
+                        </div>
+                    </div>
+                    <form action="" method="post" id="contactForm" novalidate>
+                        <div class="row row-cols-1 row-cols-sm-2 g-3 mb-3">
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="text" name="fname" placeholder="First name*" class="form-control" required>
+                                    <p class="help-block mb-0"></p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="text" name="lname" placeholder="Last name*" class="form-control" required>
+                                    <p class="help-block mb-0"></p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="text" name="email" placeholder="Email*" class="form-control" required>
+                                    <p class="help-block mb-0"></p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <input type="text" name="phone" placeholder="Phone Number*" class="form-control" required>
+                                    <p class="help-block mb-0"></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <textarea name="msg" placeholder="Message*" class="form-control" rows="3" required></textarea>
+                                    <p class="help-block mb-0"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="success"></div>
+                        <div class="text-center text-md-start">
+                            <button class="btn btn-blue px-45">Send Message</button>
+                        </div>
+                        <input type="hidden" id="token" name="token">
+                        <span class="d-none invisible" style="display: none;"><input type="text" name="spam"></span>
+                    </form>
+                </div>
+
+                <div class="col">
+                    <div class="d-none d-md-block">
+                        <h3 class="font2 mb-3">Questions?</h3>
+
+                        <div class="mb-4 mb-md-45 lh-lg">
+                            <p>Have questions about our top-tier Disney World transportation? Curious about our Port Canaveral transportation or Orlando private transportation? Let's chat!</p>
+
+                            <p>We're here to answer all your questions and ensure you have all the information you need. Reach out to us via call, text, or email – we're eager to help!</p>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-1 row-cols-lg-2 gy-4 gy-md-2 gy-lg-4 mb-4 justify-content-center">
+                        <div class="col-8">
+                            <div class="contact-info">
+                                <span class="icn-wrap"><i class="icon-location"></i></span>
+                                <p>12129 Breda Ln,<br>
+                                    Orlando FL 32827</p>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="contact-info">
+                                <span class="icn-wrap"><i class="icon-phone"></i></span>
+                                <p><a href="tel:689-258-3572">Call / Text :<br>
+                                        689-258-3572</a></p>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="contact-info">
+                                <span class="icn-wrap"><i class="icon-envelope"></i></span>
+                                <p><a href="mailto:info@thegenieorlando.com">info@thegenieorlando.com</a></p>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="contact-info">
+                                <span class="icn-wrap"><i class="icon-clock"></i></span>
+                                <p>24/7 Transportation Service</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social">
+                        <a href="https://maps.app.goo.gl/iqbiH9ctgkc3JnqU6" target="_blank"><i class="icon-google"></i></a>
+                        <a href="https://www.facebook.com/TheGenieOrlando" target="_blank"><i class="icon-facebook"></i></a>
+                    </div>
+
+                    <div class="pt-4 small text-center text-md-start">
+                        <a href="terms-conditions.html" class="inherit">Terms & Conditions</a>
+                        <a href="privacy-policy.html" class="inherit ms-3">Privacy Policy</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="footer-copyright">
+        Copyright © <script>document.write(new Date().getFullYear());</script>. All Rights Reserved.<br>
+        Web Design, SEO &amp; Hosting by <a href="https://www.rekmarketing.com/" target="_blank" class="text-decoration-none inherit">REK Marketing &amp; Design</a>
+    </div>
+    <a href="#top" class="totop">
+        <i class="icon-angle-up"></i>
+        <span>To Top</span>
+    </a>
+
+    <script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@graph": [
+		{
+		  "@type": "LocalBusiness",
+		  "@id": "https://www.thegenieorlando.com/#organization",
+		  "name": "The Genie Transportation Services",
+		  "description": "Trusted Orlando car service offering safe, private transportation from MCO to Walt Disney World, Universal Orlando Resort, and Port Canaveral with complimentary car seats.",
+		  "url": "https://www.thegenieorlando.com/",
+		  "telephone": "+1-689-258-3572",
+		  "priceRange": "$$",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "12129 Breda Ln",
+			"addressLocality": "Orlando",
+			"addressRegion": "FL",
+			"postalCode": "32827",
+			"addressCountry": "US"
+		  },
+		  "geo": {
+			"@type": "GeoCoordinates",
+			"latitude": 28.384772245536762,
+			"longitude": -81.27166575396728
+		  },
+		  "areaServed": [
+			{
+			  "@type": "City",
+			  "name": "Orlando",
+			  "sameAs": "https://www.wikidata.org/wiki/Q49233"
+			},
+			{ "@type": "City", "name": "Lake Nona" },
+			{ "@type": "City", "name": "Kissimmee" },
+			{ "@type": "City", "name": "Port Canaveral" },
+			{ "@type": "City", "name": "Cape Canaveral" },
+			{ "@type": "City", "name": "Sanford" },
+			{ "@type": "City", "name": "Windermere" },
+			{ "@type": "City", "name": "Winter Garden" }
+		  ],
+		  "openingHoursSpecification": [
+			{
+			  "@type": "OpeningHoursSpecification",
+			  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+			  "opens": "00:00",
+			  "closes": "23:59"
+			}
+		  ],
+		  "sameAs": [
+			"https://www.facebook.com/thegenietransportationservices",
+			"https://www.instagram.com/thegenieorlando",
+			"https://www.google.com/maps?cid=13343766539371664386"
+		  ],
+		  "knowsAbout": [
+			"private airport transfers",
+			"Orlando Airport transportation",
+			"Disney World transportation",
+			"Port Canaveral cruise transfers",
+			"Universal Studios transportation",
+			"family travel safety",
+			"luxury SUV car service"
+		  ],
+		  "hasOfferCatalog": {
+			"@type": "OfferCatalog",
+			"name": "Private Transportation Services",
+			"itemListElement": [
+			  {
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Orlando Airport (MCO) Transfers" }
+			  },
+			  {
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Walt Disney World Transportation" }
+			  },
+			  {
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Universal Orlando Resort Transportation" }
+			  },
+			  {
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Port Canaveral Cruise Transfers" }
+			  },
+			  {
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Sanford Airport (SFB) Transfers" }
+			  },
+			  {
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Custom Charters & Hourly Service" }
+			  },
+			  {
+				"@type": "Offer",
+				"itemOffered": { "@type": "Service", "name": "Premium Stroller Rentals" }
+			  }
+			]
+		  }
+		},
+		{
+		  "@type": "WebSite",
+		  "@id": "https://www.thegenieorlando.com/#website",
+		  "url": "https://www.thegenieorlando.com/",
+		  "name": "The Genie Transportation Services",
+		  "publisher": { "@id": "https://www.thegenieorlando.com/#organization" }
+		}
+	  ]
+	}
+	</script>
+
+    <script id="jquery-script" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js" integrity="sha512-Znnj7n0C0Xz1tdk6ih39WPm3kSCTZEKnX/7WaNbySW7GFbwSjO5r9/uOAGLMbgv6llI1GdghC7xdaQsFUStM1w==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <script src="js/jqBootstrapValidation.js" defer></script>
+    <script src="js/contact.js?v=2" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js" defer></script>
+    <script defer>
+        document.getElementById('jquery-script').onload = function () {
+            $(document).ready(function () {
+                var slider2 = tns({
+                    mode: 'carousel',
+                    container: '.services-slider',
+                    items: 1,
+                    nav: false,
+                    controls: true,
+                    controlsPosition: 'bottom',
+                    autoplayButtonOutput: false,
+                    autoplay: true,
+                    autoplayHoverPause: true,
+                    autoplayTimeout: 4000,
+                    controlsText: ['<i class="icon-chevron-thin-left"></i>', '<i class="icon-chevron-thin-right"></i>'],
+                    gutter: 20,
+                    responsive: {
+                        768: {
+                            items: 2,
+                        },
+                        992: {
+                            items: 3,
+                        }
+                    }
+                });
+            });
+
+            $(window).load(function () {
+
+                setTimeout(() => {
+                    var head = document.getElementsByTagName('head')[0]
+                    var script = document.createElement('script')
+                    script.type = 'text/javascript';
+                    script.src = 'https://www.google.com/recaptcha/api.js?render=6Ld3Cx4sAAAAAM5kv7OTxQxMHMFuVweziAMgMJrE';
+                    head.appendChild(script);
+                }, 2000);
+            });
+        }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C633T1HLQK"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-C633T1HLQK'); </script>
+    <script>
+        nl_lang = "en";
+        nl_pos = "bl";
+        nl_compact = "1";
+        nl_dir = "/vendor/nagishli/nl-files/";
+    </script>
+    <script src="/vendor/nagishli/nagishli.js?v=2.3" charset="utf-8" defer></script>
+</body>
+
+</html>
